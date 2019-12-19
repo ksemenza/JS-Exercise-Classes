@@ -41,6 +41,18 @@ class Airplane {
 */
 
 class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+    this.stomach = [];
+  }
+  eat() {
+    if(this.stomach.length > 11) {
+      return(this.stomach) = [];
+  } else {
+    return (this.stomach = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+  }
+  }
 
 }
 
